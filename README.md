@@ -4,6 +4,14 @@ The form is designed to collect user information over multiple steps, providing 
 
 <br>
 
+### Screenshorts
+
+![image](https://github.com/azlibdar/r-multistep-form/assets/121456353/bc793f32-fdd4-4e2f-8f24-d61a69b8b8c8)
+
+![image](https://github.com/azlibdar/r-multistep-form/assets/121456353/451d794e-b815-4272-8c8c-892d9561eea9)
+
+![image](https://github.com/azlibdar/r-multistep-form/assets/121456353/847dae69-67b5-4a21-8668-c69d31c8e13e)
+
 <br>
 
 ### Features
