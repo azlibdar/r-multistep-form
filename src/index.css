@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-primary-900 text-secondary-50 font-body;
+}
+
+.app-default {
+  @apply w-full px-4 py-12 md:px-6 lg:px-12 lg:py-16 flex justify-center flex-col items-center;
+}
+
+.app-center {
+  @apply w-full h-dvh flex justify-center items-center flex-col;
+}
+
+.progress-custom {
+  @apply w-full h-[8px] appearance-none;
+  -webkit-appearance: none;
+}
+
+.progress-custom::-webkit-progress-bar {
+  @apply bg-primary-800 rounded-full overflow-hidden;
+}
+
+.progress-custom::-webkit-progress-value {
+  @apply bg-b-green;
+}
+
+.form-control {
+  @apply w-full flex flex-col gap-1;
+}
+
+.form-control-label {
+  @apply text-base text-secondary-100;
+}
+
+.form-actions {
+  @apply w-full flex flex-col justify-center items-center gap-1 mt-8;
+}
+
+.btn {
+  @apply text-base w-full py-3 px-3 hover:opacity-95 border-0 transition-all active:translate-y-[2px] rounded-md outline-none;
+  user-select: none;
+}
+
+.btn-primary {
+  @apply bg-b-yellow text-primary-900 font-bold;
+}
+
+.btn-primary:focus-visible {
+  @apply ring-2 ring-b-green;
+}
+
+.btn-secondary {
+  @apply bg-primary-800 text-b-yellow font-bold;
+}
+
+.btn-secondary:focus-visible {
+  @apply ring-2 ring-b-green;
+}
+
+.btn-link {
+  @apply w-min py-2 px-6 text-nowrap text-secondary-100 underline underline-offset-[4px];
+}
+
+.btn-link:focus-visible {
+  @apply ring-2 ring-b-yellow;
+}
